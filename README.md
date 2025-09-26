@@ -1,46 +1,51 @@
 <p align="center">
-    <a href="https://gibbonedu.org/" target="_blank"><img width="200" src="https://gibbonedu.org/img/gibbon-logo.png"></a><br>
-    Gibbon is a flexible, open source school management platform designed <br>
-    to make life better for teachers, students, parents and schools.
+    <a href="https://taytechschool.com" target="_blank"><img width="200" src="https://gibbonedu.org/img/gibbon-logo.png"></a><br>
+    TayTech School Tech is a flexible, modern school management platform designed <br>
+    to make life better for teachers, students, parents, and schools.
 </p>
 
 ------
 
-Gibbon Core
-===========
-The Core repository represents the bulk of Gibbon, including all of its primary functionality. The core can be extended through the use of modules and themes, which are provided separately. See the [Extend](https://gibbonedu.org/extend/) page for more info.
+# TayTech School Tech Core
 
-Gibbon is open source, and maintained for the benefit of teachers, students, parents and schools.
+The Core repository represents the heart of **TayTech School Tech**, including all primary functionality.  
+The platform can be extended with modules and themes, which are provided separately.  
+
+TayTech School Tech is designed to empower schools with easy-to-use digital tools while remaining flexible and customizable.
 
 ## Documentation
 
-For full documentation, visit [docs.gibbonedu.org](https://docs.gibbonedu.org).
+For full documentation, visit [TayTech School Tech Docs](https://taytechschool.com/docs).
 
 ## Installation & Support
 
-For installation instructions, visit [Getting Started: Installing Gibbon](https://docs.gibbonedu.org/introduction/installing-gibbon)
+For installation instructions, see [Getting Started: Installing TayTech School Tech](https://taytechschool.com/docs/install).  
 
-For support visit [ask.gibbonedu.org](https://ask.gibbonedu.org) or see [our documentation](https://docs.gibbonedu.org).
+For support, visit [TayTech Support](https://taytechschool.com/support).
 
 ## Cutting Edge
-If you want to run the latest version of Gibbon, prerelease, you can get the source from our [GitHub repository](https://github.com/GibbonEdu/core). Remember, though, it is not stable, and you may lose data. This is not for the faint of heart.
 
-For installation instructions, be sure to follow the instructions for [Cutting Edge Code](https://docs.gibbonedu.org/introduction/installation-options/cutting-edge-code).
+If you want to run the latest features of TayTech School Tech, you can get the source from our [GitHub repository](https://github.com/taytech-dev/SchoolPro-TayTech).  
+> Note: Cutting-edge builds are experimental and not recommended for production environments.
 
 ## Translation
 
-Thanks to our amazing volunteers, Gibbon is available in many different languages. We use the online tool [POEditor](https://poeditor.com), which enables our volunteer translators to collaborate and track their translation progress. Huge thanks to POEditor for their support of open source projects and making this tool available for our community. If you would like to help translate Gibbon, please email support@gibbonedu.org and [learn more here](https://gibbonedu.org/about/#languages). Your help would be most appreciated!
+Thanks to our amazing volunteers, TayTech School Tech is available in multiple languages.  
+We use tools like [POEditor](https://poeditor.com) to enable volunteers to collaborate and track translations.  
+
+If you’d like to help with translations, email **support@taytechschool.com** and [learn more here](https://taytechschool.com/about/languages).
 
 ## Contributing
 
-We welcome community contribution and aim to ensure Gibbon is an open and friendly environment. Information about contributing, submitting issues, and pull requests can be found in the following docs:
+We welcome community contributions and aim to foster an open and friendly environment.  
+Information about contributing, submitting issues, and pull requests can be found here:
 
-- [**Contributor Guide**](https://github.com/GibbonEdu/core/blob/master/.github/CONTRIBUTING.md) - Learn more about how you can contribute to Gibbon, from code to non-code contributions alike.
-
-- [**Code of Conduct**](https://github.com/GibbonEdu/core/blob/master/.github/CODE_OF_CONDUCT.md) - Our pledge to foster a welcoming community and a positive environment for anyone to participate in.
-
-- [**Developer Workflow**](https://docs.gibbonedu.org/development/getting-started/developer-workflow) - If you want to get involved in the development process, check out our workflow and [GitHub repository](https://github.com/GibbonEdu/core). Generally there will be a development branch with the latest code, as per our [Development Road Map](https://docs.gibbonedu.org/development/gibbon-road-map).
+- [**Contributor Guide**](https://github.com/taytech-dev/SchoolPro-TayTech/blob/main/.github/CONTRIBUTING.md)  
+- [**Code of Conduct**](https://github.com/taytech-dev/SchoolPro-TayTech/blob/main/.github/CODE_OF_CONDUCT.md)  
+- [**Developer Workflow**](https://taytechschool.com/docs/development/workflow) - How to get started with development.
 
 ## License
 
-Gibbon is licensed under GNU General Public License v3.0. You can obtain a copy of the license [here](https://github.com/GibbonEdu/core/blob/master/LICENSE).
+TayTech School Tech is licensed under **GNU General Public License v3.0**.  
+You can view the license [here](https://github.com/taytech-dev/SchoolPro-TayTech/blob/main/LICENSE).
+# SchoolPro-TayTech
