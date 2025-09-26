@@ -1,41 +1,44 @@
 <?php
 /*
-Gibbon: the flexible, open school platform
-Founded by Ross Parker at ICHK Secondary. Built by Ross Parker, Sandra Kuipers and the Gibbon community (https://gibbonedu.org/about/)
-Copyright © 2010, Gibbon Foundation
-Gibbon™, Gibbon Education Ltd. (Hong Kong)
-
-This program is free software: you can redistribute it and/or modify
-it under the terms of the GNU General Public License as published by
-the Free Software Foundation, either version 3 of the License, or
-(at your option) any later version.
-
-This program is distributed in the hope that it will be useful,
-but WITHOUT ANY WARRANTY; without even the implied warranty of
-MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-GNU General Public License for more details.
-
-You should have received a copy of the GNU General Public License
-along with this program.  If not, see <http://www.gnu.org/licenses/>.
+TayTech SchoolPro: MySQL connection configuration
+Updated for Aiven MySQL SSL connection
 */
 
-/**
- * Sets the database connection information.
- * You can supply an optional $databasePort if your server requires one.
- */
-$databaseServer = '127.0.0.1:8889';
-$databaseUsername = 'root';
-$databasePassword = 'root';
-$databaseName = 'gibbon';
+// Load environment variables if available (Render, etc.)
+$databaseServer   = getenv('DB_HOST') ?: 'mysql-taytech2025-taytechschool.j.aivencloud.com';
+$databasePort     = getenv('DB_PORT') ?: 14620;
+$databaseUsername = getenv('DB_USER') ?: 'avnadmin';
+$databasePassword = getenv('DB_PASSWORD') ?: ''; // load password from env only
+$databaseName     = getenv('DB_NAME') ?: 'defaultdb';
 
-/**
- * Sets a globally unique id, to allow multiple installs on a single server.
- */
+// Path to CA certificate for SSL connection
+$caCertPath = __DIR__ . '/ca.pem';
+
+// Initialize MySQLi with SSL
+$mysqli = mysqli_init();
+mysqli_ssl_set($mysqli, NULL, NULL, $caCertPath, NULL, NULL);
+
+// Connect using SSL
+if (!mysqli_real_connect(
+    $mysqli,
+    $databaseServer,
+    $databaseUsername,
+    $databasePassword, // now defined safely
+    $databaseName,
+    $databasePort,
+    NULL,
+    MYSQLI_CLIENT_SSL
+)) {
+    die('Database connection failed: ' . mysqli_connect_error());
+}
+
+// Optional: set charset
+mysqli_set_charset($mysqli, 'utf8mb4');
+
+// System-wide unique ID
 $guid = 'txomo7b4v-j49-47r3-gj9-md9opupj8w2';
 
-/**
- * Sets system-wide caching factor, used to balance performance and freshness.
- * Value represents number of page loads between cache refresh.
- * Must be positive integer. 1 means no caching.
- */
+// Caching factor (page loads between cache refresh)
 $caching = 10;
+
+?>
