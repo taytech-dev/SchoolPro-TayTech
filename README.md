@@ -48,4 +48,3 @@ Information about contributing, submitting issues, and pull requests can be foun
 
 TayTech School Tech is licensed under **GNU General Public License v3.0**.  
 You can view the license [here](https://github.com/taytech-dev/SchoolPro-TayTech/blob/main/LICENSE).
-# SchoolPro-TayTech
