@@ -1,5 +1,5 @@
 <p align="center">
-    <a href="https://taytechschool.com" target="_blank"><img width="200" src="https://gibbonedu.org/img/gibbon-logo.png"></a><br>
+    <a href="https://taytechschool.com" target="_blank"><img width="200" src="/themes/Legacy/img/logo.png"></a><br>
     TayTech School Tech is a flexible, modern school management platform designed <br>
     to make life better for teachers, students, parents, and schools.
 </p>
