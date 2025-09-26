@@ -6,9 +6,9 @@
 
 ------
 
-# TayTech School Tech Core
+# TayTech School Tech Gibbon Clon Core
 
-The Core repository represents the heart of **TayTech School Tech**, including all primary functionality.  
+The Core repository represents the heart of **Gibbon v29**, including all primary functionality.  
 The platform can be extended with modules and themes, which are provided separately.  
 
 TayTech School Tech is designed to empower schools with easy-to-use digital tools while remaining flexible and customizable.
