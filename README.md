@@ -1,7 +1,8 @@
 <p align="center">
     <a href="https://taytechschool.com" target="_blank"><img width="200" src="/themes/Legacy/img/logo.png"></a><br>
     TayTech School Tech is a flexible, modern school management platform designed <br>
-    to make life better for teachers, students, parents, and schools.
+    to make life better for teachers, students, parents, and schools based on the Gibbon v26. <br>
+    Thanks for the great work.
 </p>
 
 ------
